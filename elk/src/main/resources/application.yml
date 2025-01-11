@@ -1,0 +1,8 @@
+spring:
+  data:
+    elasticsearch:
+      host: localhost:9200
+      username: elastic
+      password: password # 'ELK ?? ??' ???? ??? .env ? ?? ???? ?
+      repositories:
+        enabled: true
